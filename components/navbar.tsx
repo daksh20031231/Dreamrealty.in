@@ -30,9 +30,8 @@ export function Navbar() {
             whileHover={{ scale: 1.05 }}
             className="flex items-center"
           >
-            <a href="#" className="flex flex-col leading-tight">
-              <span className="font-bold text-lg text-foreground">Prime Estate</span>
-              <span className="text-[10px] sm:text-xs text-foreground/70 self-end">by ADINIA GROUP</span>
+            <a href="#" className="flex items-center leading-tight">
+              <span className="font-bold text-lg text-foreground">Dream Realty</span>
             </a>
           </motion.div>
 

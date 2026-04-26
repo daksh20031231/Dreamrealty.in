@@ -24,7 +24,7 @@ export function ListPropertyPopup() {
       </button>
 
       <p className="text-sm leading-relaxed pr-5">
-        Looking to list your property?{' '}
+        Looking to list your property? Or confused with locations?{' '}
         <a
           href="#contact"
           onClick={() => setVisible(false)}

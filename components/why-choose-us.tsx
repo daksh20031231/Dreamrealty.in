@@ -34,7 +34,7 @@ export function WhyChooseUs() {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            Why Prime Estate Stands Out
+            Why Dream Realty Stands Out
           </h2>
           <p className="text-foreground/60 text-lg max-w-2xl mx-auto">
             Experience the difference of working with industry leaders

@@ -14,9 +14,12 @@ const heroSlides = [
 ]
 
 const fallbackHeroImage = '/Hero_section_images/Assets Canvas and Cove.jpg'
+const heroBrandText = 'DreamRealty.in'
 
 export function Hero() {
   const [currentImage, setCurrentImage] = useState(0)
+  const [typedBrand, setTypedBrand] = useState('')
+  const [isDeletingBrand, setIsDeletingBrand] = useState(false)
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,6 +27,32 @@ export function Hero() {
     }, 5000)
     return () => clearInterval(interval)
   }, [])
+
+  useEffect(() => {
+    const isComplete = typedBrand === heroBrandText
+    const isEmpty = typedBrand.length === 0
+    const delay = isComplete ? 1400 : isEmpty && isDeletingBrand ? 500 : isDeletingBrand ? 50 : 95
+
+    const timeout = setTimeout(() => {
+      if (isComplete && !isDeletingBrand) {
+        setIsDeletingBrand(true)
+        return
+      }
+
+      if (isEmpty && isDeletingBrand) {
+        setIsDeletingBrand(false)
+        return
+      }
+
+      setTypedBrand((current) =>
+        isDeletingBrand
+          ? heroBrandText.slice(0, Math.max(current.length - 1, 0))
+          : heroBrandText.slice(0, current.length + 1)
+      )
+    }, delay)
+
+    return () => clearTimeout(timeout)
+  }, [typedBrand, isDeletingBrand])
 
   return (
     <section className="relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden">
@@ -58,7 +87,11 @@ export function Hero() {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance"
             >
-              Find Your Perfect Property with Prime Estate
+              Find Your Perfect Property with{' '}
+              <span className="inline-flex min-w-[10.5ch] items-baseline text-primary">
+                {typedBrand}
+                <span className="ml-1 h-[0.9em] w-[3px] animate-pulse rounded-full bg-accent" />
+              </span>
             </motion.h1>
 
             <motion.p
@@ -67,7 +100,7 @@ export function Hero() {
               transition={{ delay: 0.4 }}
               className="text-lg text-foreground/70 leading-relaxed text-balance max-w-xl"
             >
-              Prime Estate provides end-to-end real estate services including rental, buying, selling and property management.
+              Dream Realty provides end-to-end real estate services including rental, buying, selling and property management.
             </motion.p>
 
             <motion.div
@@ -77,12 +110,12 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-4 pt-4"
             >
               <motion.a
-                href="#contact"
+                href="#regions"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-primary/90 transition-colors"
               >
-                Contact Us
+                Where We Operate
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <motion.a
@@ -119,7 +152,7 @@ export function Hero() {
                   <div className="relative w-full h-full border border-white/20 shadow-2xl">
                     <img
                       src={slide.image}
-                      alt={`Prime Estate property ${index + 1}`}
+                      alt={`Dream Realty property ${index + 1}`}
                       className="w-full h-full object-cover"
                       onError={(event) => {
                         const img = event.currentTarget
@@ -132,7 +165,7 @@ export function Hero() {
                       <p className="text-lg font-semibold">
                         Premium Property {index + 1} - {slide.name}
                       </p>
-                      <p className="text-sm text-white/80">Prime Estate Showcase</p>
+                      <p className="text-sm text-white/80">Dream Realty Showcase</p>
                     </div>
                   </div>
                 </motion.div>

@@ -31,7 +31,7 @@ export function About() {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl font-bold text-balance"
             >
-              Prime Estate - Trusted Real Estate Excellence
+              Dream Realty - Trusted Real Estate Excellence
             </motion.h2>
 
             <motion.div
@@ -42,7 +42,7 @@ export function About() {
               className="space-y-6 text-foreground/70 text-lg"
             >
               <p>
-                Prime Estate is a trusted real estate consultancy based in Bengaluru. We specialize in helping clients with property rentals, buying & selling, and full property management services.
+                Dream Realty is a trusted real estate consultancy based in Bengaluru. We specialize in helping clients with property rentals, buying & selling, and full property management services.
               </p>
 
               <p>

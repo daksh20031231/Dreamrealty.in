@@ -13,8 +13,8 @@ const _poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Prime Estate | Premium Real Estate Solutions',
-  description: 'Prime Estate provides end-to-end real estate services including rental, buying, selling and property management in Bengaluru.',
+  title: 'Dream Realty | Premium Real Estate Solutions',
+  description: 'Dream Realty provides end-to-end real estate services including rental, buying, selling and property management in Bengaluru.',
   generator: 'Daksh Sharma',
 }
 

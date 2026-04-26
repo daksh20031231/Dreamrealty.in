@@ -72,7 +72,7 @@ export function JoinUs() {
               </motion.div>
 
               <h2 className="text-4xl md:text-5xl font-bold text-foreground text-balance">
-                Join Prime Estate
+                Join Dream Realty
               </h2>
               <p className="text-lg text-foreground/60 leading-relaxed">
                 Partner with one of Bengaluru&apos;s most trusted real estate firms. We&apos;re looking for talented agents and brokers who are passionate about excellence and client satisfaction.

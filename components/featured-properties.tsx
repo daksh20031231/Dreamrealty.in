@@ -164,7 +164,7 @@ export function FeaturedProperties() {
             Premium Properties Showcase
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Discover the best properties in Bengaluru curated by Prime Estate
+            Discover the best properties in Bengaluru curated by Dream Realty
           </p>
         </motion.div>
 

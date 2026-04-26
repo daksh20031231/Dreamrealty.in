@@ -8,7 +8,7 @@ export function Footer() {
     { icon: Facebook, href: '#', label: 'Facebook' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: 'https://www.instagram.com/primeestate_properties/', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/dreamrealty_properties/', label: 'Instagram' },
   ]
 
   return (
@@ -22,9 +22,8 @@ export function Footer() {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <div className="flex flex-col leading-tight w-fit">
-              <span className="font-bold text-lg text-foreground">Prime Estate</span>
-              <span className="text-[10px] sm:text-xs text-foreground/70 self-end">by ADINIA GROUP</span>
+            <div className="flex items-center leading-tight w-fit">
+              <span className="font-bold text-lg text-foreground">Dream Realty</span>
             </div>
             <p className="text-foreground/60 text-sm">
               Premium real estate solutions for rental, buying, selling, and property management.
@@ -102,7 +101,7 @@ export function Footer() {
           {/* Copyright */}
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-sm text-foreground/60">
-              © 2026 Prime Estate. All rights reserved.
+              © 2026 Dream Realty. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
               <a href="#" className="text-foreground/60 hover:text-primary transition-colors">Privacy Policy</a>

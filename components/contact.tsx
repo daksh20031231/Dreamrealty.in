@@ -38,7 +38,7 @@ export function Contact() {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            Contact Prime Estate
+            Contact Dream Realty
           </h2>
           <p className="text-foreground/60 text-lg max-w-2xl mx-auto">
             Reach out to our team for property inquiries and consultations
@@ -127,7 +127,7 @@ export function Contact() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Prime Estate Office Location"
+              title="Dream Realty Office Location"
             />
           </motion.div>
         </div>
