@@ -87,8 +87,8 @@ export function Hero() {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance"
             >
-              Find, Rent and Manage Properties with{' '}
-              <span className="inline-flex min-w-[10.5ch] items-baseline text-primary">
+              <span className="block">Find, Rent and Manage Properties with</span>
+              <span className="mt-2 flex min-h-[1.1em] min-w-[10.5ch] items-baseline text-primary">
                 {typedBrand}
                 <span className="ml-1 h-[0.9em] w-[3px] animate-pulse rounded-full bg-accent" />
               </span>
