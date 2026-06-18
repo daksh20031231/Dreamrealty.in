@@ -11,16 +11,13 @@ const propertyImages = [
 ]
 
 const southCardOneImages = [
-  '/listings/id-1/IMG_2802.jpg',
-  '/listings/id-1/IMG_2803.jpg',
-  '/listings/id-1/IMG_2804.jpg',
-  '/listings/id-1/IMG_2805.jpg',
-  '/listings/id-1/IMG_2806.jpg',
-  '/listings/id-1/IMG_2807.jpg',
-  '/listings/id-1/IMG_2808.jpg',
-  '/listings/id-1/IMG_2809.jpg',
-  '/listings/id-1/IMG_2810.jpg',
-  '/listings/id-1/IMG_2811.jpg',
+  '/listings/id-1/1.jpg',
+  '/listings/id-1/2.jpg',
+  '/listings/id-1/3.jpg',
+  '/listings/id-1/4.jpg',
+  '/listings/id-1/5.jpg',
+  '/listings/id-1/6.jpg',
+  '/listings/id-1/7.jpg',
 ]
 
 const northCardOneImages = [
@@ -142,13 +139,13 @@ const regions = [
       {
         name: '2 BHK Penthouse - Gated Society',
         location: 'Provident Park Square, Bengaluru',
-        price: '₹1 Cr',
+        price: '₹ 1.05 Cr',
         type: '2 BHK Penthouse Apartment',
         status: 'For Sale',
         beds: 2,
         baths: 2,
         sqft: '1000',
-        furnishType: 'Unfurnished',
+        furnishType: 'Semi Furnished',
         images: southCardOneImages,
       },
       {

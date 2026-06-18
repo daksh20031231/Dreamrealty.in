@@ -1,14 +1,12 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
+import { Facebook, Instagram } from 'lucide-react'
 
 export function Footer() {
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: 'https://www.instagram.com/dreamrealty_properties/', label: 'Instagram' },
+    { icon: Facebook, href: 'https://www.facebook.com/marketplace/profile/100015125535638/', label: 'Facebook' },
+    { icon: Instagram, href: 'https://www.instagram.com/dreamrealtyservices/', label: 'Instagram' },
   ]
 
   return (

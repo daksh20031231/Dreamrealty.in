@@ -41,6 +41,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: [
+      {
+        url: '/dream-realty-icon.png',
+        type: 'image/png',
+        sizes: '360x360',
+      },
+    ],
+    apple: [
+      {
+        url: '/dream-realty-icon.png',
+        type: 'image/png',
+        sizes: '360x360',
+      },
+    ],
+  },
   openGraph: {
     title: 'Dream Realty | Real Estate Consultants in Bengaluru',
     description:

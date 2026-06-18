@@ -31,7 +31,7 @@ const structuredData = {
         'Kanakapura Road',
         'Bannerghatta Road',
       ],
-      sameAs: ['https://www.instagram.com/dreamrealty_properties/'],
+      sameAs: ['https://www.instagram.com/dreamrealtyservices/'],
       makesOffer: [
         {
           '@type': 'Offer',
