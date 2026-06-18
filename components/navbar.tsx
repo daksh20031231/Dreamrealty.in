@@ -39,6 +39,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">About</a>
             <a href="#regions" className="text-sm font-medium hover:text-primary transition-colors">Regions</a>
+            <a href="#channel-partner-projects" className="text-sm font-medium hover:text-primary transition-colors">Projects</a>
             <a href="#properties" className="text-sm font-medium hover:text-primary transition-colors">Properties</a>
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Services</a>
             <a href="#join-us" className="text-sm font-medium hover:text-primary transition-colors">Join Us</a>
@@ -86,6 +87,7 @@ export function Navbar() {
           >
             <div className="flex flex-col space-y-4">
               <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">About</a>
+              <a href="#channel-partner-projects" className="text-sm font-medium hover:text-primary transition-colors">Projects</a>
               <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Services</a>
               <a href="#properties" className="text-sm font-medium hover:text-primary transition-colors">Properties</a>
               <a href="#regions" className="text-sm font-medium hover:text-primary transition-colors">Regions</a>

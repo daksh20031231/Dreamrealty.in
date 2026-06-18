@@ -13,9 +13,70 @@ const _poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Dream Realty | Premium Real Estate Solutions',
-  description: 'Dream Realty provides end-to-end real estate services including rental, buying, selling and property management in Bengaluru.',
+  metadataBase: new URL('https://dreamrealty.in'),
+  title: {
+    default: 'Dream Realty | Real Estate Consultants in Bengaluru',
+    template: '%s | Dream Realty',
+  },
+  description:
+    'Dream Realty is a Bengaluru real estate consultancy for property rentals, buying, selling, property management, home loans, interiors, and new project launches.',
+  applicationName: 'Dream Realty',
+  keywords: [
+    'Dream Realty',
+    'Dreamrealty.in',
+    'real estate consultant Bengaluru',
+    'property rentals Bengaluru',
+    'buy property Bengaluru',
+    'sell property Bengaluru',
+    'property management Bengaluru',
+    'Kanakapura Road properties',
+    'Bannerghatta Road properties',
+    'Provident Park Square',
+    'Prestige Falcon City',
+  ],
+  authors: [{ name: 'Dream Realty' }],
+  creator: 'Dream Realty',
+  publisher: 'Dream Realty',
   generator: 'Daksh Sharma',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Dream Realty | Real Estate Consultants in Bengaluru',
+    description:
+      'Find, rent, buy, sell, and manage properties in Bengaluru with Dream Realty. Explore premium listings and new project launches.',
+    url: '/',
+    siteName: 'Dream Realty',
+    locale: 'en_IN',
+    type: 'website',
+    images: [
+      {
+        url: '/Hero_section_images/Provident Park Square.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Dream Realty Bengaluru property showcase',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dream Realty | Real Estate Consultants in Bengaluru',
+    description:
+      'Bengaluru property rentals, buying, selling, management, and new project launches from Dream Realty.',
+    images: ['/Hero_section_images/Provident Park Square.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
+  category: 'real estate',
 }
 
 export default function RootLayout({

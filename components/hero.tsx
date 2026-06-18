@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 const heroSlides = [
-  { image: '/Hero_section_images/Prestige Falcon City.jpg', name: 'Pestige Falcon City' },
+  { image: '/Hero_section_images/Prestige Falcon City.jpg', name: 'Prestige Falcon City' },
   { image: '/Hero_section_images/Provident Park Square.jpg', name: 'Provident Park Square' },
   { image: '/Hero_section_images/Assets Canvas and Cove.jpg', name: 'Assets Canvas and Cove' },
   { image: '/Hero_section_images/Nandi Citadel.jpg', name: 'Nandi Citadel' },
@@ -78,7 +78,7 @@ export function Hero() {
               transition={{ delay: 0.2 }}
               className="inline-block px-4 py-2 bg-secondary rounded-full"
             >
-              <p className="text-sm font-medium text-foreground">Welcome to Premium Real Estate</p>
+              <p className="text-sm font-medium text-foreground">Bengaluru Real Estate Consultants</p>
             </motion.div>
 
             <motion.h1
@@ -87,7 +87,7 @@ export function Hero() {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance"
             >
-              Find Your Perfect Property with{' '}
+              Find, Rent and Manage Properties with{' '}
               <span className="inline-flex min-w-[10.5ch] items-baseline text-primary">
                 {typedBrand}
                 <span className="ml-1 h-[0.9em] w-[3px] animate-pulse rounded-full bg-accent" />
@@ -100,7 +100,7 @@ export function Hero() {
               transition={{ delay: 0.4 }}
               className="text-lg text-foreground/70 leading-relaxed text-balance max-w-xl"
             >
-              Dream Realty provides end-to-end real estate services including rental, buying, selling and property management.
+              Dream Realty helps clients rent, buy, sell and manage properties across Bengaluru, including South Bengaluru, Kanakapura Road, Bannerghatta Road and leading gated communities.
             </motion.p>
 
             <motion.div
@@ -152,7 +152,7 @@ export function Hero() {
                   <div className="relative w-full h-full border border-white/20 shadow-2xl">
                     <img
                       src={slide.image}
-                      alt={`Dream Realty property ${index + 1}`}
+                      alt={`${slide.name} property showcased by Dream Realty in Bengaluru`}
                       className="w-full h-full object-cover"
                       onError={(event) => {
                         const img = event.currentTarget
