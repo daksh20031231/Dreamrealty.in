@@ -103,8 +103,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script dangerouslySetInnerHTML={{__html: `window.chtlConfig = { chatbotId: "3365791432" }`}} />
-        <script async data-id="3365791432" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+        <script dangerouslySetInnerHTML={{__html: `window.chtlConfig = { chatbotId: "7518683262" }`}} />
+        <script async data-id="7518683262" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
       </head>
       <body className="font-sans antialiased">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>

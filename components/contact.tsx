@@ -5,12 +5,14 @@ import { Phone, MapPin } from 'lucide-react'
 
 const contacts = [
   {
-    name: 'Rahul',
-    phone1: '636608560',
-    phone2: '8971187951',
+    name: 'C S Nagaraja Rao',
+    type: 'Property related',
+    phone1: '635508560',
+    phone2: undefined,
   },
   {
-    name: 'Daksh',
+    name: 'Daksh Sharma',
+    type: 'Technical support',
     phone1: '7597526065',
     phone2: undefined,
   },
@@ -64,7 +66,12 @@ export function Contact() {
                     whileHover={{ x: 10 }}
                     className="p-6 bg-secondary/50 rounded-xl border border-border hover:bg-secondary/80 transition-colors"
                   >
-                    <h4 className="font-semibold text-lg mb-4 text-foreground">{contact.name}</h4>
+                    <div className="flex items-center justify-between gap-3 mb-4">
+                      <h4 className="font-semibold text-lg text-foreground">{contact.name}</h4>
+                      <span className="text-xs font-medium uppercase tracking-wide text-primary bg-primary/10 px-2 py-1 rounded-full">
+                        {contact.type}
+                      </span>
+                    </div>
                     <div className="space-y-3">
                       <a
                         href={`tel:${contact.phone1}`}

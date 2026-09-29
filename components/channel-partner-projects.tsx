@@ -9,14 +9,14 @@ const projects = [
     name: 'Casagrand Casablanca',
     location: 'Kanakapura Road, South Bengaluru',
     price: 'Starting from ₹1.23 Cr',
-    image: '/channel-partner-projects/casagrand-casablanca.jpeg',
+    image: '/channel-partner-projects/casagrand-casablanca.png',
     link: 'https://www.casagrand.co.in/residential/ongoing-projects-bengaluru-kanagapura-road/casagrand-casablanca/',
   },
   {
     name: 'Godrej Vantara',
     location: 'Off Bannerghatta Road, South Bengaluru',
     price: 'Starting from ₹1.28 Cr',
-    image: '/channel-partner-projects/godrej-vantara.jpeg',
+    image: '/channel-partner-projects/Godrej-Vanatara.png',
     link: 'https://homesdecoded.com/godrej-bannerghatta/?utm_source=search_135287&utm_medium=Google&utm_campaign=Search_Brand_Project&utm_adgroup=FE_07_AG_01_EXACT_KW&utm_id=463&utm_publisher=Google&utm_publisher_id=23&ad_code=135287&gad_source=1&gad_campaignid=23783376959&gbraid=0AAAABDd_jNoAiw2pCXbw6dUbvQBsDhpCr&gclid=Cj0KCQjwi8nRBhDhARIsAHZf_paSKpykWlD_FOhNfub2HsWZJawcdW6FgiU7wvy8X_er1cucbZXvzPQaAh6UEALw_wcB',
   },
 ]
